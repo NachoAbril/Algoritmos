@@ -16,5 +16,9 @@ class OPTIMIZACIONC_API UOMyStatics : public UBlueprintFunctionLibrary
 	
 public:
 	UFUNCTION(BlueprintCallable)
-	static int Fibonacci(int Pos);
+	static int FibonacciR(int Pos);
+	UFUNCTION(BlueprintCallable)
+	static int FibonacciB(int Pos);
+	UFUNCTION(BlueprintCallable)
+	static void Wrapped(int Pos);
 };
